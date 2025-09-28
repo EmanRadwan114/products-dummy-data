@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // Load JSON file
-let db = JSON.parse(fs.readFileSync("data_with_categories.json"));
+let db = JSON.parse(fs.readFileSync("data.json"));
 
 // --- PRODUCTS API ---
 
